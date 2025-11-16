@@ -1,0 +1,10 @@
+{
+  "name": "projokali",
+  "version": "1.0.0",
+  "description": "Open-source developer building AI, tokenization, and Bitcoin CLI tools like ai-research-hub, token-wallet-cli, and btc-pay-tracker. Focused on privacy, local-first workflows, and lightweight decentralized systems for developers and enthusiasts.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
